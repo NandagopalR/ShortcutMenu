@@ -9,17 +9,17 @@ import com.nanda.shortcutmenu.base.BaseActivity
 /**
  * Created by Nandagopal on 2020-01-22.
  */
-class AssetEventActivity : BaseActivity() {
+class SettingsActivity : BaseActivity() {
 
     companion object {
         fun getCallingIntent(context: Context): Intent {
-            return Intent(context, AssetEventActivity::class.java)
+            return Intent(context, SettingsActivity::class.java)
         }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_asset_event)
+        setContentView(R.layout.activity_settings)
     }
 
 }

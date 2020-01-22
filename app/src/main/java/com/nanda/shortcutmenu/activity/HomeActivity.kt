@@ -30,7 +30,7 @@ class HomeActivity : BaseActivity(), View.OnClickListener {
                 startActivity(WorkOrderActivity.getCallingIntent(this))
             }
             R.id.pview_asset -> {
-                startActivity(AssetEventActivity.getCallingIntent(this))
+                startActivity(SettingsActivity.getCallingIntent(this))
             }
         }
     }

@@ -18,8 +18,8 @@
         android:shortcutLongLabel="@string/shortcut_settings"
         android:shortcutShortLabel="@string/shortcut_settings">
         <intent
-            android:action="com.nanda.shortcutmenu.activity.OPEN_ASSET_EVENT"
-            android:targetClass="com.nanda.shortcutmenu.activity.AssetEventActivity"
+            android:action="com.nanda.shortcutmenu.activity.OPEN_SETTINGS"
+            android:targetClass="com.nanda.shortcutmenu.activity.SettingsActivity"
             android:targetPackage="com.nanda.shortcutmenu" />
     </shortcut>
 

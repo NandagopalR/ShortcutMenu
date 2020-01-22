@@ -26,7 +26,7 @@
         </activity>
         <activity android:name=".activity.HomeActivity" />
         <activity android:name=".activity.WorkOrderActivity" />
-        <activity android:name=".activity.AssetEventActivity" />
+        <activity android:name=".activity.SettingsActivity" />
     </application>
 
 </manifest>
